@@ -1,2 +1,2 @@
-# ViacheslavLashchenko.github.io-
+# ViacheslavLashchenko.github.io
 Хостинг
