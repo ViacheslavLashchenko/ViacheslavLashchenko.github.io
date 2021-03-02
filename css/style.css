@@ -1,3 +1,4 @@
+@import url('https://rsms.me/inter/inter-ui.css');
 #console {display: none;}
 #dialog {
   position: absolute;
@@ -45,11 +46,11 @@
   margin: 0 auto;
   top: 50%;
   transform: translateY(-50%);
-  width: 640px;
+  width: 720px;
   padding: 2rem;
   border-radius: 0.25rem;
   /*border: 1px solid #969696;*/
-  background: #fff;
+  background: #8d8d8d;
   box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
   max-height: 0;
   opacity: 0;
@@ -231,6 +232,7 @@ h2 {
 }
 svg {
   position: absolute;
+  left: 0;
   width: 320px;
 }
 path {
@@ -243,14 +245,14 @@ path {
   margin: 40px;
   position: absolute;
 }
-/*label {
+label.into-form {
   color:  #c2c2c5;
   display: block;
   font-size: 14px;
   height: 16px;
   margin-top: 20px;
   margin-bottom: 5px;
-}*/
+}
 input {
   background: transparent;
   border: 0;
