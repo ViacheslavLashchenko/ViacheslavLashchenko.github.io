@@ -38,7 +38,7 @@ document.querySelector('#email').addEventListener('focus', function(e) {
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '240 1386',
+      value: '228 1386',
       duration: 700,
       easing: 'easeOutQuart'
     }
@@ -49,12 +49,12 @@ document.querySelector('#password').addEventListener('focus', function(e) {
   current = anime({
     targets: 'path',
     strokeDashoffset: {
-      value: -336,
+      value: -328,
       duration: 700,
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '240 1386',
+      value: '213 1386',
       duration: 700,
       easing: 'easeOutQuart'
     }
@@ -70,7 +70,7 @@ document.querySelector('#submit').addEventListener('focus', function(e) {
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '530 1386',
+      value: '570 1386',
       duration: 700,
       easing: 'easeOutQuart'
     }
