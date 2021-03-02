@@ -243,14 +243,14 @@ path {
   margin: 40px;
   position: absolute;
 }
-label {
+/*label {
   color:  #c2c2c5;
   display: block;
   font-size: 14px;
   height: 16px;
   margin-top: 20px;
   margin-bottom: 5px;
-}
+}*/
 input {
   background: transparent;
   border: 0;
