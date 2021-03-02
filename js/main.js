@@ -28,7 +28,7 @@ function cwrite(str,title) {
 
 
 var current = null;
-document.querySelector('#email').addEventListener('focus', function(e) {
+document.querySelector('#name').addEventListener('focus', function(e) {
   if (current) current.pause();
   current = anime({
     targets: 'path',
@@ -38,23 +38,39 @@ document.querySelector('#email').addEventListener('focus', function(e) {
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '228 1386',
+      value: '230 2000',
       duration: 700,
       easing: 'easeOutQuart'
     }
   });
 });
-document.querySelector('#password').addEventListener('focus', function(e) {
+document.querySelector('#email').addEventListener('focus', function(e) {
   if (current) current.pause();
   current = anime({
     targets: 'path',
     strokeDashoffset: {
-      value: -328,
+      value: -370,
       duration: 700,
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '213 1386',
+      value: '230 2000',
+      duration: 700,
+      easing: 'easeOutQuart'
+    }
+  });
+});
+document.querySelector('#tel').addEventListener('focus', function(e) {
+  if (current) current.pause();
+  current = anime({
+    targets: 'path',
+    strokeDashoffset: {
+      value: -703,
+      duration: 700,
+      easing: 'easeOutQuart'
+    },
+    strokeDasharray: {
+      value: '230 2000',
       duration: 700,
       easing: 'easeOutQuart'
     }
@@ -65,12 +81,12 @@ document.querySelector('#submit').addEventListener('focus', function(e) {
   current = anime({
     targets: 'path',
     strokeDashoffset: {
-      value: -730,
+      value: -1118,
       duration: 700,
       easing: 'easeOutQuart'
     },
     strokeDasharray: {
-      value: '570 1386',
+      value: '510 2000',
       duration: 700,
       easing: 'easeOutQuart'
     }

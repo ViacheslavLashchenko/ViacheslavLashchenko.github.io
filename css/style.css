@@ -50,7 +50,7 @@
   padding: 2rem;
   border-radius: 0.25rem;
   /*border: 1px solid #969696;*/
-  background: #8d8d8d;
+  background: #c2c2c5;
   box-shadow: 1px 1px 6px rgba(0,0,0,0.3);
   max-height: 0;
   opacity: 0;
@@ -205,6 +205,7 @@ h2 {
   }
 }
 .login {
+  color: #474A59;
   font-size: 50px;
   font-weight: 900;
   margin: 50px 40px 40px;
@@ -239,7 +240,7 @@ path {
   fill: none;
   stroke: url(#linearGradient);
   stroke-width: 4;
-  stroke-dasharray: 228 1386;
+  stroke-dasharray: 230 2000;
 }
 .form {
   margin: 40px;
@@ -250,25 +251,27 @@ label.into-form {
   display: block;
   font-size: 14px;
   height: 16px;
-  margin-top: 20px;
+  margin-top: 13px;
   margin-bottom: 5px;
 }
 input {
   background: transparent;
   border: 0;
-  color: #f2f2f2;
-  font-size: 20px;
+  color: #c2c2c5;
+  font-size: 17px;
   height: 30px;
   line-height: 30px;
   outline: none !important;
   width: 100%;
+  padding: 0;
 }
 input::-moz-focus-inner { 
   border: 0; 
 }
 #submit {
+  font-size: 22px;
   color: #707075;
-  margin-top: 40px;
+  margin-top: 15px;
   transition: color 300ms;
 }
 #submit:focus {

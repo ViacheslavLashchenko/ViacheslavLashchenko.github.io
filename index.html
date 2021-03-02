@@ -19,11 +19,11 @@
       <label id="dlg-close" for="dialog_state"><i class="icon ion-ios-close-empty"></i></label>
       <div class="container">
         <div class="left">
-          <div class="login">Login</div>
-          <div class="eula">By logging in you agree to the ridiculously long terms that you didn't bother to read</div>
+          <div class="login">Feedback</div>
+          <div class="eula">By leaving us a request, you agree that you will be answered within the next two thousand years</div>
         </div>
         <div class="right">
-          <svg viewBox="-15 -116 320 300">
+          <svg viewBox="0 0 320 320">
             <defs>
               <linearGradient
               inkscape:collect="always"
@@ -43,14 +43,16 @@
               id="stop878" />
             </linearGradient>
           </defs>
-          <path d="m 35,5.61167 h 230 v 90 H 40 v 60 h 225 v -60 H 40 v 60 h 225" />
-          
+          <path d="m 35,110 c 73.33433,0 146.66767,0 194.16788,0 47.50022,0 69.16645,0 79.99928,10.83405 C 320,131.6681 320,153.33433 310.83365,164.16716 301.6673,175 283.33433,175 240.00031,175 196.6663,175 128.33433,175 84.167465,175 40.0006,175 20.001,175 10.0005,185.83405 0,196.6681 0,218.33433 8.334,229.16716 16.668,240 33.334333,240 79.168417,240 c 45.834083,0 120.832583,0 165.832733,0 45.00015,0 59.99985,0 67.49935,7.50065 C 320,255.0013 320,270.001 310.83365,277.5005 301.6673,285 283.33433,285 240.83367,285 198.333,285 131.66767,285 93.334235,285 55.0008,285 45.001,285 40.0005,277.50035 35,270.0007 35,255.001 40.83395,247.5005 46.6679,240 58.334333,240 90.834867,240 c 32.500533,0 85.832803,0 118.332913,0 32.50012,0 44.16655,0 49.99938,7.50065 C 265,255.0013 265,270.001 258.3337,277.5005 251.6674,285 238.33433,285 221.66746,285 205.0006,285 185.001,285 165,285" />
+
         </svg>
         <div class="form">
+          <label class="into-form" for="name">Name</label>
+          <input type="name" id="name">
           <label class="into-form" for="email">Email</label>
           <input type="email" id="email">
-          <label class="into-form" for="password">Password</label>
-          <input type="password" id="password">
+          <label class="into-form" for="tel">Phone</label>
+          <input type="tel" id="tel">
           <input type="submit" id="submit" value="Submit">
         </div>
       </div>
@@ -59,7 +61,7 @@
 </div>
 <main id='main' class='main_area'>
   <div class='center'>
-    <label class="button" for="dialog_state"><i class="icon ion-ios-upload-outline"></i> Open the dialog</label>
+    <label class="button" for="dialog_state"><i class="icon ion-ios-upload-outline"></i> Open the feedback</label>
   </div>
   <div id='console'></div>
 </main>
