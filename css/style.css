@@ -280,3 +280,35 @@ input::-moz-focus-inner {
 #submit:active {
   color: #d0d0d2;
 }
+
+@media screen and (max-width: 767px) {
+  #dlg-wrap {
+      width: 450px;
+    }
+    .dialog_state:checked + #dialog #dlg-wrap {
+      max-height: 45rem;
+      padding: 2rem;
+    }
+    .container {
+      height: 630px;
+      width: 330px;
+    }
+    .login {
+      color: #474A59;
+      font-size: 44px;
+      margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+  #dlg-wrap {
+    width: 320px;
+  }
+  .dialog_state:checked + #dialog #dlg-wrap {
+    padding: 0;
+  }
+  .container {
+    width: 281px;
+  }
+
+}
